@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/07/04 19:56:25.000.732,=C:\Users\Jac\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2012/07/04 20:00:18.000.909,C:\MecanicaDiamante\UMenuPrin.pas=C:\Users\Jac\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2012/07/04 20:00:18.000.909,C:\MecanicaDiamante\UMenuPrin.dfm=C:\Users\Jac\Documents\RAD Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2012/07/04 20:00:38.000.200,C:\MecanicaDiamante\SistemaDiamante.dproj=C:\Users\Jac\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2012/07/04 21:29:51.000.244,=C:\MecanicaDiamante\Unit1.pas</Transaction>
+    <Transaction>2012/07/04 21:30:56.000.052,C:\MecanicaDiamante\USplash.dfm=C:\MecanicaDiamante\Unit1.dfm</Transaction>
+    <Transaction>2012/07/04 21:30:56.000.052,C:\MecanicaDiamante\USplash.pas=C:\MecanicaDiamante\Unit1.pas</Transaction>
+    <Transaction>2012/07/05 17:22:35.000.352,=C:\MecanicaDiamante\Unit1.pas</Transaction>
+    <Transaction>2012/07/10 15:16:41.000.182,=C:\MecanicaDiamante\Unit2.pas</Transaction>
+    <Transaction>2012/07/10 15:17:23.000.449,C:\MecanicaDiamante\Unit2.pas=C:\MecanicaDiamante\UDM.pas</Transaction>
+    <Transaction>2012/07/10 15:17:23.000.449,C:\MecanicaDiamante\Unit2.dfm=C:\MecanicaDiamante\UDM.dfm</Transaction>
+    <Transaction>2012/07/11 17:17:43.000.536,=C:\MecanicaDiamante\Unit2.pas</Transaction>
+    <Transaction>2012/07/11 17:50:49.000.102,C:\MecanicaDiamante\UDM_Cliente.pas=C:\MecanicaDiamante\Unit2.pas</Transaction>
+    <Transaction>2012/07/11 17:50:49.000.102,C:\MecanicaDiamante\UDM_Cliente.dfm=C:\MecanicaDiamante\Unit2.dfm</Transaction>
+    <Transaction>2012/07/11 22:04:59.000.362,=C:\MecanicaDiamante\Unit2.pas</Transaction>
+    <Transaction>2012/07/11 22:05:44.000.871,C:\MecanicaDiamante\UCadCliente.dfm=C:\MecanicaDiamante\Unit2.dfm</Transaction>
+    <Transaction>2012/07/11 22:05:44.000.871,C:\MecanicaDiamante\UCadCliente.pas=C:\MecanicaDiamante\Unit2.pas</Transaction>
+    <Transaction>2012/07/12 14:46:31.000.010,=C:\MecanicaDiamante\Unit2.pas</Transaction>
+    <Transaction>2012/07/12 14:47:30.000.535,C:\MecanicaDiamante\Unit2.dfm=C:\MecanicaDiamante\UDM_Veiculo.dfm</Transaction>
+    <Transaction>2012/07/12 14:47:30.000.534,C:\MecanicaDiamante\Unit2.pas=C:\MecanicaDiamante\UDM_Veiculo.pas</Transaction>
+    <Transaction>2012/07/25 13:44:12.000.790,=C:\MecanicaDiamante\Unit2.pas</Transaction>
+    <Transaction>2012/07/25 13:44:26.000.331,=C:\MecanicaDiamante\DBDateTimePicker.pas</Transaction>
+    <Transaction>2012/08/15 16:02:54.000.514,C:\MecanicaDiamante\DBDateTimePicker.pas=</Transaction>
+    <Transaction>2012/08/15 16:03:11.000.240,C:\MecanicaDiamante\Unit2.pas=</Transaction>
+    <Transaction>2012/08/21 19:44:55.000.933,=C:\MecanicaDiamante\Unit3.pas</Transaction>
+    <Transaction>2012/08/21 19:50:19.000.425,C:\MecanicaDiamante\UFuncoes.pas=C:\MecanicaDiamante\Unit3.pas</Transaction>
+    <Transaction>2012/08/23 15:44:24.000.359,=C:\MecanicaDiamante\Unit3.pas</Transaction>
+    <Transaction>2012/08/23 15:45:36.000.345,C:\MecanicaDiamante\UCadVeiculo.pas=C:\MecanicaDiamante\Unit3.pas</Transaction>
+    <Transaction>2012/08/23 15:45:36.000.345,C:\MecanicaDiamante\UCadVeiculo.dfm=C:\MecanicaDiamante\Unit3.dfm</Transaction>
+    <Transaction>2012/09/20 16:20:35.000.175,C:\MecanicaDiamante\Unit1.pas=</Transaction>
+    <Transaction>2012/09/20 18:49:10.000.597,=C:\MecanicaDiamante\Unit3.pas</Transaction>
+    <Transaction>2012/09/20 20:00:32.000.627,C:\MecanicaDiamante\UBkpRst.dfm=C:\MecanicaDiamante\Unit3.dfm</Transaction>
+    <Transaction>2012/09/20 20:00:32.000.627,C:\MecanicaDiamante\UBkpRst.pas=C:\MecanicaDiamante\Unit3.pas</Transaction>
+    <Transaction>2012/09/23 09:11:41.000.169,C:\MecanicaDiamante\UBkpRst.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="UCadCliente.pas"/>
+    <File Path="UCadCliente.dfm"/>
+    <File Path="UDM.pas"/>
+    <File Path="UDM.dfm"/>
+    <File Path="UDM_Cliente.pas"/>
+    <File Path="UDM_Cliente.dfm"/>
+    <File Path="UDM_Veiculo.pas"/>
+    <File Path="UDM_Veiculo.dfm"/>
+    <File Path="UMenuPrin.pas"/>
+    <File Path="UMenuPrin.dfm"/>
+    <File Path="USplash.pas"/>
+    <File Path="USplash.dfm"/>
+    <File Path="UFuncoes.pas"/>
+    <File Path="UCadVeiculo.pas"/>
+    <File Path="UCadVeiculo.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
