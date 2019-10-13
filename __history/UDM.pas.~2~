@@ -1,0 +1,32 @@
+unit UDM;
+
+interface
+
+uses
+  SysUtils, Classes, DBXFirebird, FMTBcd, DBClient, DB, Provider, SqlExpr;
+
+type
+  TDataModule2 = class(TDataModule)
+    Conexao: TSQLConnection;
+    SQLClientes: TSQLQuery;
+    SQLVeiculos: TSQLQuery;
+    DSPClientes: TDataSetProvider;
+    DSPVeiculos: TDataSetProvider;
+    DSClientes: TDataSource;
+    DSVeiculos: TDataSource;
+    CDSClientes: TClientDataSet;
+    CDSVeiculos: TClientDataSet;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule2: TDataModule2;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,98 @@
+unit UDM;
+
+interface
+
+uses
+  SysUtils, Classes, DBXFirebird, FMTBcd, DBClient, DB, Provider, SqlExpr;
+
+type
+  TDM = class(TDataModule)
+    Conexao: TSQLConnection;
+    SQLCliente: TSQLQuery;
+    SQLVeiculo: TSQLQuery;
+    DSPCliente: TDataSetProvider;
+    DSPVeiculo: TDataSetProvider;
+    DSCliente: TDataSource;
+    DSVeiculo: TDataSource;
+    CDSVeiculo: TClientDataSet;
+    CDSCliente: TClientDataSet;
+    CDSClienteIDCLIENTE: TIntegerField;
+    CDSClienteDTCADASTRO: TDateField;
+    CDSClienteTIPOPESSOA: TStringField;
+    CDSClienteRAZAOSOCIAL_NOME: TStringField;
+    CDSClienteNOMEFANTASIA_APELIDO: TStringField;
+    CDSClienteCNPJ_CPF: TStringField;
+    CDSClienteIE_RG: TStringField;
+    CDSClienteSEXO: TStringField;
+    CDSClienteDTNASCIMENTO: TDateField;
+    CDSClienteENDERECO: TStringField;
+    CDSClienteNUMERO: TIntegerField;
+    CDSClienteCOMPLEMENTO: TStringField;
+    CDSClienteCEP: TStringField;
+    CDSClienteBAIRRO: TStringField;
+    CDSClienteCIDADE: TStringField;
+    CDSClienteUF: TStringField;
+    CDSClienteTELEFONE1: TStringField;
+    CDSClienteTELEFONE2: TStringField;
+    CDSClienteCELULAR1: TStringField;
+    CDSClienteCELULAR2: TStringField;
+    CDSClienteEMAIL: TStringField;
+    CDSClienteOBSERVACAO: TStringField;
+    CDSVeiculoIDVEICULO: TIntegerField;
+    CDSVeiculoPLACA: TStringField;
+    CDSVeiculoVEICULO: TStringField;
+    CDSVeiculoANO: TIntegerField;
+    CDSVeiculoMARCA: TStringField;
+    CDSVeiculoMODELO: TStringField;
+    CDSVeiculoCOR: TStringField;
+    CDSVeiculoCOMBUSTIVEL: TStringField;
+    CDSVeiculoCIDADE: TStringField;
+    CDSVeiculoOBSERVACAO: TStringField;
+    CDSVeiculoIDCLIENTE: TIntegerField;
+    SQLClienteIDCLIENTE: TIntegerField;
+    SQLClienteDTCADASTRO: TDateField;
+    SQLClienteTIPOPESSOA: TStringField;
+    SQLClienteRAZAOSOCIAL_NOME: TStringField;
+    SQLClienteNOMEFANTASIA_APELIDO: TStringField;
+    SQLClienteCNPJ_CPF: TStringField;
+    SQLClienteIE_RG: TStringField;
+    SQLClienteSEXO: TStringField;
+    SQLClienteDTNASCIMENTO: TDateField;
+    SQLClienteENDERECO: TStringField;
+    SQLClienteNUMERO: TIntegerField;
+    SQLClienteCOMPLEMENTO: TStringField;
+    SQLClienteCEP: TStringField;
+    SQLClienteBAIRRO: TStringField;
+    SQLClienteCIDADE: TStringField;
+    SQLClienteUF: TStringField;
+    SQLClienteTELEFONE1: TStringField;
+    SQLClienteTELEFONE2: TStringField;
+    SQLClienteCELULAR1: TStringField;
+    SQLClienteCELULAR2: TStringField;
+    SQLClienteEMAIL: TStringField;
+    SQLClienteOBSERVACAO: TStringField;
+    SQLVeiculoIDVEICULO: TIntegerField;
+    SQLVeiculoPLACA: TStringField;
+    SQLVeiculoVEICULO: TStringField;
+    SQLVeiculoANO: TIntegerField;
+    SQLVeiculoMARCA: TStringField;
+    SQLVeiculoMODELO: TStringField;
+    SQLVeiculoCOR: TStringField;
+    SQLVeiculoCOMBUSTIVEL: TStringField;
+    SQLVeiculoCIDADE: TStringField;
+    SQLVeiculoOBSERVACAO: TStringField;
+    SQLVeiculoIDCLIENTE: TIntegerField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDM;
+
+implementation
+
+{$R *.dfm}
+
+end.

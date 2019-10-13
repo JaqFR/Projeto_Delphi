@@ -1,0 +1,50 @@
+unit UDM;
+
+interface
+
+uses
+  SysUtils, Classes, DBXFirebird, FMTBcd, DBClient, DB, Provider, SqlExpr;
+
+type
+  TDM = class(TDataModule)
+    Conexao: TSQLConnection;
+    SQLVeiculo: TSQLQuery;
+    DSPVeiculo: TDataSetProvider;
+    DSVeiculo: TDataSource;
+    CDSVeiculo: TClientDataSet;
+    CDSVeiculoIDVEICULO: TIntegerField;
+    CDSVeiculoPLACA: TStringField;
+    CDSVeiculoVEICULO: TStringField;
+    CDSVeiculoANO: TIntegerField;
+    CDSVeiculoMARCA: TStringField;
+    CDSVeiculoMODELO: TStringField;
+    CDSVeiculoCOR: TStringField;
+    CDSVeiculoCOMBUSTIVEL: TStringField;
+    CDSVeiculoCIDADE: TStringField;
+    CDSVeiculoOBSERVACAO: TStringField;
+    CDSVeiculoIDCLIENTE: TIntegerField;
+    SQLVeiculoIDVEICULO: TIntegerField;
+    SQLVeiculoPLACA: TStringField;
+    SQLVeiculoVEICULO: TStringField;
+    SQLVeiculoANO: TIntegerField;
+    SQLVeiculoMARCA: TStringField;
+    SQLVeiculoMODELO: TStringField;
+    SQLVeiculoCOR: TStringField;
+    SQLVeiculoCOMBUSTIVEL: TStringField;
+    SQLVeiculoCIDADE: TStringField;
+    SQLVeiculoOBSERVACAO: TStringField;
+    SQLVeiculoIDCLIENTE: TIntegerField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDM;
+
+implementation
+
+{$R *.dfm}
+
+end.
